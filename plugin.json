@@ -1,0 +1,21 @@
+{
+  "id": "abyss-plugin-qr-craft",
+  "name": "二维码工坊",
+  "version": "0.1.0",
+  "minHost": 1,
+  "minApp": "0.1.0",
+  "category": "tools",
+  "summary": "ZXing 生成 / 解析 / 网页转二维码，一键分享。",
+  "icon": "🔳",
+  "permissions": [
+    "CAMERA"
+  ],
+  "entry": "com.abyss.tools.plugin.qrcraft.QrCraftPlugin",
+  "repo": "Ultra-Guru/abyss-plugin-qr-craft",
+  "patchChannel": "https://raw.githubusercontent.com/Ultra-Guru/abyss-plugin-qr-craft/main/patches/index.json",
+  "roadmap": [
+    "v0.2 生成与解析",
+    "v0.3 网页转码",
+    "v0.4 批量美化"
+  ]
+}
